@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: Plant-Disease-Detection-Api
+    env: python
+    buildCommand: |
+      apt-get update && apt-get install -y git-lfs
+      git lfs install
+      git lfs pull
+    startCommand: gunicorn API:app
