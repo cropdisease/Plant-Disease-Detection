@@ -11,3 +11,4 @@ streamlit-modal
 tensorflow
 tf_keras
 gunicorn
+keras
