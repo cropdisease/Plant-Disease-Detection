@@ -9,7 +9,7 @@ requests
 streamlit
 streamlit-modal
 tensorflow==2.17.0
-tensorflow-gpu
+
 tensorrt
 tf_keras
 gunicorn
